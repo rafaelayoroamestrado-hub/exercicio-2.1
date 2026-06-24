@@ -1,3 +1,31 @@
+\# Relatório de Atendimento URA - Versão 1
+
+\*\*Autor:\*\* Assistente 1
+
+
+
+\## Descrição do Serviço
+
+Atendimento eletrônico para consulta de parcelas e habilitação do Seguro-Desemprego.
+
+
+
+\## Atores Identificados
+
+\- Cidadão (Usuário)
+
+\- Caixa Econômica Federal (Operadora)
+
+\- Ministério do Trabalho (Gestor)
+
+
+
+\## Fluxo Básico
+
+O cidadão liga, digita o CPF e recebe o status das parcelas.
+
+
+
 Prompt para o Assistente de Deep ResearchTítulo da Tarefa: Mapeamento Exaustivo do Ecossistema de Atores: Serviço de Atendimento ao Seguro-Desemprego via URA da Caixa Econômica Federal.Contexto do Serviço:
 
 Você deve realizar uma investigação profunda sobre o serviço de atendimento telefônico (URA — Unidade de Resposta Audível) da Caixa Econômica Federal voltado ao Seguro-Desemprego. A jornada compreende desde o momento em que o cidadão disca o número, navega pelos menus de voz, interage com sistemas automatizados, é eventualmente transferido para um atendente humano, até a resolução da demanda (consulta de status, agendamento ou encaminhamento).Objetivo Específico:

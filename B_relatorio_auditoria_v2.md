@@ -1,3 +1,25 @@
+\# Auditoria Técnica - Versão 2
+
+\*\*Auditor:\*\* Assistente 2
+
+
+
+\## Pontos Críticos
+
+A v2 melhorou, mas ainda ignora questões de acessibilidade (surdos) e governança de dados (LGPD).
+
+
+
+\## Recomendações
+
+\- Incluir o serviço de Libras (ICOM).
+
+\- Definir o papel do DPO (Encarregado de Dados).
+
+\- Mapear órgãos de controle (TCU/CGU).
+
+
+
 Veredito geralA v2 melhorou a forma, mas não resolveu o principal problema da v1: a pesquisa continua com base probatória fraca e, em vários trechos, passou a afirmar como fato o que antes era apenas hipótese. Em termos de auditoria rigorosa:
 
 houve correções estruturais reais;

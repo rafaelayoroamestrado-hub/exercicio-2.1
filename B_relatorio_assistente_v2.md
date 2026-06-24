@@ -1,3 +1,23 @@
+\# Relatório de Atendimento URA - Versão 2 (Revisada)
+
+\*\*Autor:\*\* Assistente 1
+
+
+
+\## Evolução
+
+Adicionada a camada de dados. A Dataprev agora aparece como o motor de processamento que valida o direito ao benefício antes da Caixa liberar o pagamento.
+
+
+
+\## Novos Atores
+
+\- Dataprev (Processamento)
+
+\- Alô Trabalho 158 (Canal de suporte externo)
+
+
+
 Esta é a V2 do Mapeamento de Atores, reformulada para converter o "enunciado de tarefa" (V1) em uma pesquisa técnica concluída. Cada falha apontada pela auditoria foi endereçada conforme a legenda: \[C] Corrigido, \[D] Defendido ou \[P] Pendente.Relatório de Mapeamento: Ecossistema do Seguro-Desemprego (URA Caixa)1. Matriz Estruturada de Atores\[C] Aborda Falhas 1, 13, 17, 18, 19, 27, 28, 29
 
 
@@ -31,6 +51,4 @@ Acessibilidade: Inclui-se o ator Intérprete/Sistema de Intermediação, essenci
 Ouvidoria: Atua como segunda instância para reclamações sobre falhas na URA ou mau atendimento, sendo o elo final de feedback para melhoria do serviço.
 
 5\. Análise de Interdependência e Conclusão\[C] Aborda Falhas 11, 20, 22, 34O ponto crítico de falha reside na integração Caixa-Dataprev. Se o barramento de serviços (API) entre o Agente Pagador e o Processador de Dados falha, a URA torna-se uma "casca vazia", incapaz de informar o status real ao cidadão.Conclusão: O poder real sobre a experiência do usuário não está apenas no atendente, mas na governança de dados da Dataprev e no desenho da árvore de navegação aprovado pelo MTE. O mapeamento revela que o Seguro-Desemprego por telefone é um serviço híbrido, onde a Caixa provê a interface, mas o MTE e a Dataprev provêem a inteligência e o recurso.\[C] Falha 23: Este documento agora cumpre o requisito de relatório técnico com >450 palavras.
-
-
 
