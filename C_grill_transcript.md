@@ -1,44 +1,42 @@
-\# Transcript da Sabatina /grill-me — Mapa de Atores do Seguro-Desemprego
+\# Transcript da Sabatina /grill-me — Mapa de Atores (Completo)
 
 
 
-\*\*Contexto:\*\* Sabatina realizada para validar as interdependências e responsabilidades do serviço de atendimento via URA da Caixa Econômica Federal.
+\*\*Pergunta 1:\*\* Se o cidadão ouve na URA que "não há parcelas", mas tem direito, de quem é a responsabilidade técnica e como a URA orienta?
+
+\*\*Resposta:\*\* A responsabilidade técnica é do MTE (via Dataprev). A Caixa é apenas o agente pagador. A URA deve orientar o cidadão a buscar o Alô Trabalho 158 ou uma unidade física do MTE.
 
 
 
-\---
+\*\*Pergunta 2:\*\* A Dataprev é apenas fornecedora ou Responsável (R) pela integridade na Matriz RACI?
+
+\*\*Resposta:\*\* A Dataprev é Responsável (R) pela integridade da informação processada. O MTE é o dono do serviço (Accountable), mas a execução técnica e o cruzamento de dados são de responsabilidade da Dataprev.
 
 
 
-\*\*Pergunta 1:\*\* No relatório V3, a Caixa é o "Agente Pagador" e o MTE é o "Gestor da Política". Se o cidadão ouve na URA que "não há parcelas", mas tem direito, de quem é a responsabilidade técnica e como a URA orienta?
+\*\*Pergunta 3:\*\* Se o atendimento humano falha, a responsabilidade legal é da Caixa ou da terceirizada (BPO)?
+
+\*\*Resposta:\*\* A responsabilidade legal perante o cidadão é da Caixa Econômica Federal. O Fiscal do Contrato da Caixa deve cobrar os SLAs da empresa de BPO.
 
 
 
-\*\*Resposta:\*\* A responsabilidade técnica de resolver a divergência é do \*\*MTE (via Dataprev)\*\*. A Caixa apenas paga o que o MTE autoriza. A URA deve orientar o cidadão a buscar os canais do Ministério, como o \*\*Alô Trabalho 158\*\* ou uma unidade física das Superintendências Regionais do Trabalho, pois somente eles podem reprocessar o requerimento.
+\*\*Pergunta 4:\*\* Em caso de vazamento de dados, o DPO é Responsável (R) ou Consultado (C)?
+
+\*\*Resposta:\*\* O DPO atua como Consultado (C). A responsabilidade legal de responder à ANPD é do Controlador (Alta Gestão da Caixa). O DPO é o canal estratégico e fiscalizador, garantindo a conformidade, mas não executa a resposta operacional sozinho.
 
 
 
-\---
+\*\*Pergunta 5:\*\* Devemos incluir um Ator de Contingência para falhas no serviço de Libras (ICOM)?
+
+\*\*Resposta:\*\* Sim. É necessário prever um Ator de Contingência (como o Atendente de Agência Física) para evitar um ponto único de falha que invalide a acessibilidade. Ele será Informado (I) ou Consultado (C) dependendo do protocolo de transbordo presencial.
 
 
 
-\*\*Pergunta 2:\*\* A Dataprev deve ser considerada apenas uma "fornecedora de dados" ou ela tem um papel de Responsável (R) pela integridade da informação na Matriz RACI?
+\*\*Pergunta 6:\*\* O TCU/CGU podem interromper o serviço ou ser Consultados (C) nos scripts da URA?
+
+\*\*Resposta:\*\* Não. Eles permanecem como Informados (I). Torná-los Consultados violaria a segregação de funções. Eles fiscalizam a posteriori e emitem recomendações; quem decide a interrupção ou mudança é o Gestor (A) em cumprimento às ordens dos órgãos.
 
 
 
-\*\*Resposta:\*\* A Dataprev deve ser classificada como \*\*Responsável (R)\*\* pela integridade da informação processada e transmitida. Embora o MTE seja o dono do serviço (Accountable), a Dataprev é a empresa pública que executa o cruzamento e a validação das regras. Se a informação chega com erro na ponta, a execução técnica falhou no escopo da Dataprev.
-
-
-
-\---
-
-
-
-\*\*Pergunta 3:\*\* Se um atendente humano passar uma informação errada ou houver queda constante na linha, de quem é a responsabilidade legal perante o cidadão?
-
-
-
-\*\*Resposta:\*\* A responsabilidade legal perante o cidadão é da \*\*Caixa Econômica Federal\*\*, que é a detentora do serviço público de atendimento. O \*\*Fiscal do Contrato da Caixa\*\* deve atuar para aplicar sanções à empresa de BPO (terceirizada) e garantir o cumprimento dos SLAs (níveis de serviço).
-
-
+\*\*Consenso:\*\* O mapa agora cobre desde a operação técnica até a governança de dados e controle externo com profundidade de 6 níveis.
 

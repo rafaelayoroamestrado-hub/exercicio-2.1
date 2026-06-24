@@ -2,51 +2,35 @@
 
 
 
-Este documento apresenta a atribuição de responsabilidades para o ecossistema do serviço, conforme validado em sabatina técnica.
-
-
-
 | Ator | Papel no Serviço | R | A | C | I |
 
 | :--- | :--- | :---: | :---: | :---: | :---: |
 
-| \*\*Cidadão\*\* | Requerente do benefício e usuário da URA | | | | \*\*X\*\* |
+| \*\*Cidadão\*\* | Usuário final do serviço | | | | \*\*X\*\* |
 
-| \*\*MTE (Min. do Trabalho)\*\* | Gestor da Política e dono do serviço | | \*\*X\*\* | | |
+| \*\*MTE (Min. do Trabalho)\*\* | Gestor da Política Pública | | \*\*X\*\* | | |
 
-| \*\*Dataprev\*\* | Responsável pela integridade e processamento dos dados | \*\*X\*\* | | | |
+| \*\*Dataprev\*\* | Integridade e Processamento de Dados | \*\*X\*\* | | | |
 
-| \*\*Caixa (TI/Negócio)\*\* | Provedora da infraestrutura de atendimento e pagamento | \*\*X\*\* | | | |
+| \*\*Caixa (TI/Negócio)\*\* | Infraestrutura da URA e Pagamento | \*\*X\*\* | | | |
 
-| \*\*Empresa de BPO\*\* | Operadora terceirizada do atendimento humano | \*\*X\*\* | | | |
+| \*\*Empresa de BPO\*\* | Operação do Telemarketing | \*\*X\*\* | | | |
 
-| \*\*Fiscal do Contrato (Caixa)\*\* | Monitoramento de SLAs e conformidade da operação | \*\*X\*\* | | | |
+| \*\*Fiscal do Contrato\*\* | Gestão de SLAs e Conformidade | \*\*X\*\* | | | |
 
-| \*\*DPO / Encarregado\*\* | Governança de dados e conformidade com a LGPD | | | \*\*X\*\* | |
+| \*\*DPO (Encarregado)\*\* | Governança de Dados (LGPD) | | | \*\*X\*\* | |
 
-| \*\*TCU / CGU\*\* | Fiscalização, controle e auditoria externa | | | | \*\*X\*\* |
+| \*\*Atendente Presencial\*\* | Contingência de Acessibilidade/Falhas | | | | \*\*X\*\* |
 
-| \*\*ICOM / Intérpretes\*\* | Provedor de acessibilidade (Libras) | \*\*X\*\* | | | |
+| \*\*TCU / CGU\*\* | Auditoria e Controle Externo | | | | \*\*X\*\* |
 
-
-
-\---
+| \*\*ICOM / Libras\*\* | Provedor de Acessibilidade Digital | \*\*X\*\* | | | |
 
 
 
-\### Legenda de Responsabilidades:
+\*\*Decisões Técnicas de Design:\*\*
 
-\- \*\*R (Responsible):\*\* Quem executa a tarefa ou processo técnico.
+1\. \*\*Dataprev (R):\*\* Definida como responsável pela integridade para evitar que o MTE (A) seja sobrecarregado com falhas de processamento técnico.
 
-\- \*\*A (Accountable):\*\* Quem é o "dono" do serviço e responde legalmente pelo sucesso ou falha da política.
-
-\- \*\*C (Consulted):\*\* Quem deve ser consultado para prover orientações antes de uma decisão ou mudança.
-
-\- \*\*I (Informed):\*\* Quem deve ser informado sobre os resultados ou ações executadas.
-
-
-
-\---
-
-\*\*Nota Técnica:\*\* A Matriz RACI destaca que, embora a Caixa opere a interface (URA), a autoridade final sobre a concessão do benefício (Accountability) permanece com o Ministério do Trabalho e Emprego.
+2\. \*\*DPO (C):\*\* Mantido como consultado para preservar a independência da fiscalização interna, sem assumir riscos operacionais do Controlador.
 
